@@ -18,12 +18,12 @@ require('q-lazy'); // extends Q
 
 function heavyFunc () {
     // ...
-    return ret; // return value can be promise or plain value
+    return ret; // the return value can be a promise or a plain value
 }
 
-var promise = Q.lazy(heavyFunc); // doesn't executes heavyFunc
+var promise = Q.lazy(heavyFunc); // doesn't execute heavyFunc
 
-promise.then(function (ret) { // executes heavyFunc
+promise.then(function (ret) {    // executes heavyFunc
     // use ret
 });
 ```
