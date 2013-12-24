@@ -1,4 +1,10 @@
 # Q.lazy()
+
+<a href="http://promises-aplus.github.com/promises-spec">
+    <img src="http://promises-aplus.github.com/promises-spec/assets/logo-small.png"
+         align="right" alt="Promises/A+ logo" />
+</a>
+
 *Resolves promises idly.*
 
 [![Build Status](https://travis-ci.org/nailgun/node-q-lazy.png?branch=master)](https://travis-ci.org/nailgun/node-q-lazy)
