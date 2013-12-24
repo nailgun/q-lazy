@@ -2,6 +2,7 @@
 *Resolves promises idly.*
 
 [![Build Status](https://travis-ci.org/nailgun/node-q-lazy.png?branch=master)](https://travis-ci.org/nailgun/node-q-lazy)
+[![NPM version](https://badge.fury.io/js/q-lazy.png)](http://badge.fury.io/js/q-lazy)
 
 ```npm install q-lazy```
 
