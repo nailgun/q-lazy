@@ -1,6 +1,6 @@
 {
   "name": "q-lazy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Q lazy promise resolution",
   "homepage": "https://github.com/nailgun/q-lazy",
   "main": "index.js",
