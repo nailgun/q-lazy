@@ -1,0 +1,33 @@
+{
+  "name": "q-lazy",
+  "version": "1.0.0",
+  "description": "Q lazy promise resolution",
+  "homepage": "https://github.com/nailgun/node-q-lazy",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test --reporter spec --require should"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nailgun/node-q-lazy.git"
+  },
+  "keywords": [
+    "q",
+    "promise",
+    "promises",
+    "lazy"
+  ],
+  "peerDependencies": {
+    "q": "~0.9.7"
+  },
+  "devDependencies": {
+    "should": "~2.1.1",
+    "mocha": "~1.16.2",
+    "q": "~0.9.7"
+  },
+  "author": "Dmitry Bashkatov <dbashkatov@gmail.com>",
+  "license": "MIT"
+}
