@@ -3,18 +3,6 @@
 var Q = require('q'); require('../index');
 var should = require('should');
 
-// TODO: mocha-q (promise-based mocha)
-(function wrapMocha() {
-    var describeCase = it;
-
-    // TODO: it.only, it.skip
-    it = function (name, fn) {
-        describeCase(name, function (done) {
-            Q(fn()).done(done.bind(this, null), done);
-        });
-    };
-})();
-
 describe('Q.lazy(fn)', function () {
     it('should return promise', function () {
         Q.isPromise(Q.lazy()).should.be.true;
