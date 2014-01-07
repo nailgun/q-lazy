@@ -1,7 +1,7 @@
 'use strict';
 
-var Q = require('q'); require('../index');
-var should = require('should');
+var Q = require('q');
+require('../index');
 
 describe('Q.lazy(fn)', function () {
     it('should return promise', function () {

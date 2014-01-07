@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha test --reporter spec --require should"
+    "test": "grunt test"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,9 @@
     "q": "~0.9.7"
   },
   "devDependencies": {
-    "mocha": "~1.16.2",
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-mocha-test": "~0.8.1",
     "mocha-as-promised": "~2.0.0",
     "should": "~2.1.1",
     "q": "~0.9.7"
