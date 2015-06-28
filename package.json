@@ -21,7 +21,7 @@
     "lazy"
   ],
   "peerDependencies": {
-    "q": "~0.9.7"
+    "q": ">=0.9.7  <2.0.0"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
@@ -29,7 +29,7 @@
     "grunt-mocha-test": "~0.8.1",
     "mocha-as-promised": "~2.0.0",
     "should": "~2.1.1",
-    "q": "~0.9.7"
+    "q": ">=0.9.7  <2.0.0"
   },
   "author": "Dmitry Bashkatov <dbashkatov@gmail.com>",
   "license": "MIT"
