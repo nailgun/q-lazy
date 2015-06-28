@@ -21,7 +21,7 @@
     "lazy"
   ],
   "peerDependencies": {
-    "q": "~0.9.7"
+    "q": "~1.0.0"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
